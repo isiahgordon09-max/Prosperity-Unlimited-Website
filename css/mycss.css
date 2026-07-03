@@ -1,0 +1,15 @@
+.mycss-ppheaders{
+    background-color: #EDE3FF; color: #333;
+}
+
+
+.chg-to-green-bullet{
+    list-style-type: disc;
+
+    &li{
+        transform: scale(2);
+    }
+}
+.chg-to-green-bullet > li::marker{
+    color: greenyellow;
+}
